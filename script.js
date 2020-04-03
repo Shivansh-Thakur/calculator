@@ -2,6 +2,7 @@ const calculatorScreen=document.querySelector('.calculator-screen')
 const numbers=document.querySelectorAll(".number")
 const operators=document.querySelectorAll(".operator")
 const equalSign=document.querySelector('.equal-sign')
+const allclear=document.querySelector('.all-clear')
 const updateScreen=(number)=>{
 	calculatorScreen.value=number
 } 
@@ -55,6 +56,10 @@ numbers.forEach((number)=>{
       updateScreen(currentInput)
  })
 })
+ allclear.addEventListener('click',()=>{
+	 currentInput = 0		 
+      updateScreen(currentInput)
+ })
 let prevInput='0'
 let calculationOperator=''
 let currentInput='0'
