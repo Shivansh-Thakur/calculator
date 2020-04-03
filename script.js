@@ -57,7 +57,7 @@ numbers.forEach((number)=>{
  })
 })
  allclear.addEventListener('click',()=>{
-	 currentInput = 0		 
+	 currentInput = '0'		 
       updateScreen(currentInput)
  })
 let prevInput='0'
