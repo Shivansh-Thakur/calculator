@@ -30,6 +30,9 @@ button{
 	width: 25%;
 	outline: none;
 }
+button.operator.grey {
+    background-color: gray;
+}
 .all-clear,.zero-btn{
 	width:50%;
 }
