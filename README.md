@@ -1,4 +1,5 @@
 # calculator
 Click to view <a href = 'https://shivansh-thakur.github.io/calculator/'> Calculator </a>
 
-Simple calculator created uding HTML, CSS and Javascript.
+Simple calculator created uding HTML, CSS and Javascript.<br>
+added background image
